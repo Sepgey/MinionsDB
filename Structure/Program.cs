@@ -8,13 +8,12 @@ namespace LinkedList
     {
         static void Main(string[] args)
         {
-            DoublyLinkedList<Minion> minion = new DoublyLinkedList<Minion>
+            DoublyLinkedList<Minion> minion = new DoublyLinkedList<Minion>();
 {
-new Minion(1, "Kevin", 14, 3),
-new Minion(2, "Bob", 23, 2),
-new Minion(3, "Stuart", 21, 1)
-};
-
+            minion.Add(new Minion(1, "Kevin", 14, 3));
+            minion.Add(new Minion(2, "Bob", 23, 2));
+            minion.Add(new Minion(3, "Stuart", 21, 1));
+}
             minion.AddFirst(new Minion(4, "Mark", 20, 4));
             foreach (var item in minion)
             {

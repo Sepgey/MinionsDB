@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinionsDB", "MinionsDB\MinionsDB.csproj", "{20E87FF5-5DEC-4BF2-96B3-759CBEAC4F25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinionsDB", "MinionsDB\MinionsDB.csproj", "{20E87FF5-5DEC-4BF2-96B3-759CBEAC4F25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structure", "Structure\Structure.csproj", "{74583643-FE71-405B-B1AB-76EAA67C177F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{20E87FF5-5DEC-4BF2-96B3-759CBEAC4F25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20E87FF5-5DEC-4BF2-96B3-759CBEAC4F25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20E87FF5-5DEC-4BF2-96B3-759CBEAC4F25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74583643-FE71-405B-B1AB-76EAA67C177F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74583643-FE71-405B-B1AB-76EAA67C177F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74583643-FE71-405B-B1AB-76EAA67C177F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74583643-FE71-405B-B1AB-76EAA67C177F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
